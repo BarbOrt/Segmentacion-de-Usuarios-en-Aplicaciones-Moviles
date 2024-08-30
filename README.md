@@ -24,8 +24,8 @@ El proyecto está estructurado en varias fases, cada una detallada en el archivo
 6. **Análisis de Métricas de Negocio**: Cálculo y análisis de métricas clave como la tasa de retención y la frecuencia de eventos.
 7. **Preparación de la Presentación**: Creación de visualizaciones y un resumen en PDF de los hallazgos del proyecto.
 8. **Dashboards en Tableau**: Visualización de métricas y segmentos de usuarios en dashboards interactivos:
-   - **[Dashboard 1](https://public.tableau.com/app/profile/barbara.ortiz/viz/Dashboard1_proyectofinal/Dashboard1)**: Distribución de eventos y número de usuarios.
-   - **[Dashboard 2](https://public.tableau.com/app/profile/barbara.ortiz/viz/Dashboard2_proyectofinal/Dashboard2)**: Número de eventos por día y análisis de usuarios por fuente.
+   - **[Dashboard 1](https://public.tableau.com/app/profile/barbara.ortiz/viz/EventosyUsuarios1/Dashboard1#1)**: Distribución de eventos y número de usuarios.
+   - **[Dashboard 2](https://public.tableau.com/app/profile/barbara.ortiz/viz/EventosyUsuarios/Dashboard1)**: Número de eventos por día y análisis de usuarios por fuente.
 
 La presentación final resume los hallazgos y conclusiones del proyecto en un documento PDF disponible en el repositorio.
 
