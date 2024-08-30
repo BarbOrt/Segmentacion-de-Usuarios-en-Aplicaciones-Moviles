@@ -1,67 +1,31 @@
 # Segmentación de Usuarios en Aplicaciones Móviles
 
-El objetivo principal de este análisis es segmentar a los usuarios en función de su comportamiento en la aplicación y probar hipótesis estadísticas relacionadas con métricas clave del producto. Esta segmentación nos permitirá identificar grupos de usuarios con comportamientos similares, lo que a su vez ayudará a personalizar estrategias de marketing y mejorar la retención de usuarios.
+## Introducción
 
+En el competitivo ámbito de las aplicaciones móviles, es fundamental entender cómo interactúan los usuarios con la aplicación para optimizar la experiencia y maximizar el impacto de las estrategias de marketing. Este proyecto se enfoca en segmentar a los usuarios de la aplicación móvil **Trash to Treasure** para mejorar las estrategias de marketing y la retención mediante un análisis detallado del comportamiento del usuario.
 
-## Objetivo del Proyecto**
+## Objetivo del Proyecto
 
-El objetivo de este proyecto es segmentar a los usuarios y usuarias de la aplicación móvil Trash to Treasure en función de su comportamiento y analizar diferentes métricas del producto, como la tasa de retención, tiempo dedicado a la aplicación, frecuencia de eventos y conversión en el evento `contacts_show`.
+El objetivo principal es realizar una segmentación de los usuarios basada en su comportamiento en la aplicación y analizar métricas clave, tales como la tasa de retención, el tiempo de uso, la frecuencia de eventos y la conversión en el evento `contacts_show`. Esto permitirá:
 
-## Pasos del Proyecto**
+- **Identificar** grupos de usuarios con patrones de comportamiento similares.
+- **Optimizar** estrategias de marketing personalizadas.
+- **Mejorar** la retención y satisfacción del usuario.
 
-1. Importación de Librerías y Carga de Datos
+## Descripción del Proyecto
 
-- Importar las librerías necesarias.
-- Cargar los datasets `mobile_dataset_us.csv` y `mobile_sources_us.csv`.
+El proyecto está estructurado en varias fases, cada una detallada en el archivo Jupyter Notebook asociado:
 
-2. Preprocesamiento de Datos
+1. **Importación de Librerías y Carga de Datos**: Preparación inicial de los datos y librerías necesarias.
+2. **Preprocesamiento de Datos**: Limpieza y preparación de los datos para el análisis.
+3. **Análisis Exploratorio de Datos (EDA)**: Exploración y visualización de los datos para obtener una comprensión inicial.
+4. **Segmentación de Usuarios**: Aplicación de técnicas de clustering para definir segmentos de usuarios basados en su comportamiento.
+5. **Prueba de Hipótesis**: Evaluación de hipótesis relacionadas con la conversión en el evento `contacts_show` entre diferentes fuentes de descarga.
+6. **Análisis de Métricas de Negocio**: Cálculo y análisis de métricas clave como la tasa de retención y la frecuencia de eventos.
+7. **Preparación de la Presentación**: Creación de visualizaciones y un resumen en PDF de los hallazgos del proyecto.
+8. **Dashboards en Tableau**: Visualización de métricas y segmentos de usuarios en dashboards interactivos:
+   - **[Dashboard 1](https://public.tableau.com/app/profile/barbara.ortiz/viz/Dashboard1_proyectofinal/Dashboard1)**: Distribución de eventos y número de usuarios.
+   - **[Dashboard 2](https://public.tableau.com/app/profile/barbara.ortiz/viz/Dashboard2_proyectofinal/Dashboard2)**: Número de eventos por día y análisis de usuarios por fuente.
 
-- Revisar y manejar valores ausentes.
-- Convertir tipos de datos si es necesario.
-- Unificar el formato de los datos temporales.
-- Fusionar datasets en función del `user.id`.
+La presentación final resume los hallazgos y conclusiones del proyecto en un documento PDF disponible en el repositorio.
 
-3. Análisis Exploratorio de Datos (EDA)
-
-- Visualizar la distribución de eventos por tipo de evento.
-- Analizar la distribución temporal de los eventos.
-- Calcular y visualizar el número de usuarios por fuente de descarga.
-- Analizar las frecuencias de los eventos por usuario.
-
-4. Segmentación de Usuarios
-
-- Definir criterios de segmentación basados en los eventos completados.
-- Implementar técnicas de segmentación (e.g., clustering).
-- Describir los segmentos resultantes en términos de métricas del producto.
-
-5. Prueba de Hipótesis
-
-- Formular y probar una hipótesis sobre la diferencia en la conversión en vistas de información de contacto entre quienes descargaron la aplicación de Bing y quienes la descargaron de Google.
-- Formular una hipótesis estadística adicional sobre los datos del dataset y probarla.
-
-6. Análisis de Métricas de Negocio
-
-- Calcular y analizar la tasa de retención de usuarios.
-- Calcular el tiempo promedio dedicado a la aplicación.
-- Evaluar la frecuencia de ocurrencia de eventos.
-- Analizar la conversión en el evento `contacts_show`.
-
-7. Preparar una Presentación
-
-- Crear visualizaciones claras y concisas de los hallazgos.
-- Elaborar una narrativa que explique los resultados y su relevancia.
-- Preparar un documento en PDF con la presentación final.
-
-8. Construcción de dashboards en Tableau para visualizar las métricas y los segmentos de usuarios:
-
-1. **[Dashboard 1](https://public.tableau.com/app/profile/barbara.ortiz/viz/Dashboard1_proyectofinal/Dashboard1)**: 
-   - Distribución de eventos por tipo.
-   - Indicador del número de usuarios.
-   - Filtro por fecha de evento.
-
-2. **[Dashboard 2](https://public.tableau.com/app/profile/barbara.ortiz/viz/Dashboard2_proyectofinal/Dashboard2)**: 
-   - Número de eventos por día.
-   - Histograma del número de usuarios por fuente.
-   - Filtro por tipo de evento.
-
-La presentación final se preparó en PDF, resumiendo los hallazgos y conclusiones del proyecto.
