@@ -74,5 +74,6 @@ The dataset includes user interaction data with various events captured within t
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/BarbOrt/Segmentacion-de-Usuarios-en-Aplicaciones-Moviles/blob/main/LICENSE.txt) file for details.
+
 
